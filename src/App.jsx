@@ -5,7 +5,6 @@ import SideBar from "./components/SideBar";
 
 function App() {
   const [data, setData] = useState(null);
-  const [loading, Setloading] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   function handleToggleModal() {
